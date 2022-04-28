@@ -1,6 +1,6 @@
 import data from '../data.js'
 const HomeScreen = {
-  render: asynch () => {
+  render: async () => {
     const response = await fetch('http://localhost:5000/api/products', {
       headers: {
         "Content-Type": 'application/json',
@@ -35,7 +35,7 @@ const HomeScreen = {
     </ul>
     `
   }
-
+}
 
 
 export default HomeScreen;

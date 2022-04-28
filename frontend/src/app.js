@@ -7,7 +7,7 @@ const routes = {
   "/": HomeScreen,
   "/product/:id": ProductScreen,
 }
-const router = asynch () => {
+const router = async () => {
   const request = parseRequestUrl();
   const parseUrl =
     (request.resource ? `/${request.resource}` : '/') +

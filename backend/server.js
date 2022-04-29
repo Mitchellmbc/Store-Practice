@@ -1,11 +1,5 @@
-//const express = require('express');
-
 import express from 'express';
-
 import cors from 'cors';
-
-//const data = require('./data.js');
-
 import data from './data.js';
 
 const app = express();
